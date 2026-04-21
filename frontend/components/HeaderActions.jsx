@@ -19,7 +19,6 @@ export default function HeaderActions({
 
   if (!isLoaded) return null;
 
-
   const isPro = subscriptionTier === "pro";
 
   return (

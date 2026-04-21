@@ -9,7 +9,7 @@ import Image from "next/image";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Servd - AI Recipes Platform",
+  title: "NutriChef - AI Recipes Platform",
   description: "",
 };
 
@@ -43,8 +43,8 @@ export default function RootLayout({ children }) {
                 <div className="flex items-center gap-4">
                   <div className="rounded-2xl border border-stone-200 bg-white shadow-sm p-2.5 ring-1 ring-stone-100">
                     <Image
-                      src="/logo.png"
-                      alt="Servd Logo"
+                      src="/Footer_Logo.jfif"
+                      alt="NutriChef Logo"
                       width={48}
                       height={48}
                       className="w-10 md:w-11"
@@ -53,7 +53,7 @@ export default function RootLayout({ children }) {
 
                   <div>
                     <h3 className="text-xl md:text-2xl font-bold tracking-tight text-stone-900">
-                      Servd
+                      NutriChef
                     </h3>
                     <p className="text-[11px] uppercase tracking-[0.30em] text-orange-500 font-semibold">
                       Premium AI Kitchen Platform
