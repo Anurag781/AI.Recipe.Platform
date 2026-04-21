@@ -86,7 +86,7 @@ export default function LandingPage() {
               {/* FAR LEFT - Increased z-index and pulled further left */}
               <div className="absolute top-32 left-[-20px] md:left-[-40px] w-[180px] md:w-[220px] rounded-[2rem] overflow-hidden border-8 border-white shadow-xl rotate-[-20deg] z-20 opacity-90">
                 <Image
-                  src="/dessert.jfif"
+                  src="/dessert.jpg"
                   alt="Dessert"
                   width={400}
                   height={500}
@@ -97,7 +97,7 @@ export default function LandingPage() {
               {/* LEFT - Lower z-index so it sits behind the far-left */}
               <div className="absolute top-20 left-10 md:left-20 w-[200px] md:w-[240px] rounded-[2rem] overflow-hidden border-8 border-white shadow-xl rotate-[-12deg] z-10">
                 <Image
-                  src="/salad.jfif"
+                  src="/salad.jpg"
                   alt="Salad"
                   width={420}
                   height={520}
@@ -119,7 +119,7 @@ export default function LandingPage() {
               {/* FAR RIGHT - Increased z-index and pulled further right */}
               <div className="absolute top-36 right-[-20px] md:right-[-40px] w-[180px] md:w-[220px] rounded-[2rem] overflow-hidden border-8 border-white shadow-xl rotate-[20deg] z-20 opacity-90">
                 <Image
-                  src="/pizza.jfif"
+                  src="/pizza.jpg"
                   alt="Pizza"
                   width={400}
                   height={500}
@@ -138,7 +138,7 @@ export default function LandingPage() {
                 />
 
                 {/* overlay and content */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent" />
                 <div className="absolute bottom-6 left-6 right-6 bg-white/85 backdrop-blur-xl border border-white/40 p-5 rounded-2xl shadow-2xl">
                   <div className="flex justify-between items-start gap-4 mb-4">
                     <div>
@@ -177,10 +177,10 @@ export default function LandingPage() {
             {SITE_STATS.map((stat, i) => (
               <div
                 key={i}
-                className="group relative rounded-2xl border border-white/8 bg-white/[0.025] px-5 py-6 text-center transition-all duration-300 hover:-translate-y-1 hover:border-orange-500/35"
+                className="group relative rounded-2xl border border-white/8 bg-white/2.5 px-5 py-6 text-center transition-all duration-300 hover:-translate-y-1 hover:border-orange-500/35"
               >
                 {/* Minimal Accent Line */}
-                <div className="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-orange-500/70 to-transparent" />
+                <div className="absolute inset-x-6 top-0 h-px bg-linear-to-r from-transparent via-orange-500/70 to-transparent" />
 
                 {/* Value */}
                 <div className="text-3xl md:text-4xl font-black text-white tracking-tight leading-none mb-2">
@@ -222,7 +222,7 @@ export default function LandingPage() {
                   className="group relative overflow-hidden rounded-3xl border border-stone-200/70 bg-white shadow-sm hover:shadow-[0_22px_45px_-18px_rgba(0,0,0,0.12)] hover:-translate-y-1 transition-all duration-500"
                 >
                   {/* Accent */}
-                  <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-orange-500/70 to-transparent" />
+                  <div className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-orange-500/70 to-transparent" />
                   <div className="absolute -top-10 -right-10 h-24 w-24 rounded-full bg-orange-100 blur-3xl opacity-70 group-hover:scale-125 transition-transform duration-500" />
 
                   <CardContent className="relative p-5 sm:p-6 md:p-7">
