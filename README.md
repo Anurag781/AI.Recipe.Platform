@@ -22,7 +22,9 @@
 
 ## 🚀 Live Demo
 
-🌐 https://yourwebsite.vercel.app
+🌐 https://ai-recipe-platform-ggxt-k8u6ngq2q.vercel.app/
+
+Go & Check It Out.....
 
 ---
 
