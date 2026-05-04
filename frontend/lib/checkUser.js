@@ -83,7 +83,7 @@ export const checkUser = async () => {
     console.log("🔍 No clerkid match. Checking email:", email);
 
     const emailResponse = await fetch(
-      `${STRAPI_URL}/api/users?filters[email][$eq]=${email}`,
+      `${STRAPI_URL}/api/users?filters[email][$eq]=${encodeURIComponent(email)}`,
       {
         headers: {
           Authorization: `Bearer ${STRAPI_API_TOKEN}`,
@@ -217,7 +217,7 @@ export const checkUser = async () => {
 
     return newUser;
   } catch (error) {
-    console.error("❌ Error in checkUser:", error.message);
+    console.error("❌ Error in checkUser:", error);
     return null;
   }
 };
