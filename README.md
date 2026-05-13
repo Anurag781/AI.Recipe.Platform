@@ -22,7 +22,7 @@
 
 ## 🚀 Live Demo
 
-🌐 https://ai-recipe-platform-ggxt-k8u6ngq2q.vercel.app/
+🌐 nutrichef-ai-platform.vercel.app/
 
 Go & Check It Out.....
 
